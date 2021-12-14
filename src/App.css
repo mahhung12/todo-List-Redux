@@ -1,0 +1,124 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+input {
+  line-height: normal;
+}
+label,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.todos-app {
+  width: 50%;
+  margin: 15px auto;
+
+  padding: 15px;
+  border: 1px solid lightskyblue;
+  border-radius: 20px;
+
+  text-align: center;
+}
+
+.todos-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 15px;
+
+  padding: 15px;
+}
+
+.input {
+  padding: 15px;
+  border-radius: 7px;
+
+  outline: none;
+  border: none;
+
+  background-color: beige;
+
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.btn-add,
+.btn-done,
+.btn-cancel {
+  padding: 15px;
+  border-radius: 7px;
+  border: none;
+  user-select: none;
+  background-color: beige;
+
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.list-todos {
+  list-style-type: none;
+}
+
+.items {
+  padding: 15px;
+  border-radius: 7px;
+  border: none;
+  background-color: #fff;
+}
+
+.todo-items {
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 15px;
+}
+
+.wrap-btn {
+  display: flex;
+  gap: 0 10px;
+}
+
+.btn-delete,
+.btn-edit {
+  user-select: none;
+  padding: 5px 10px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.btn-delete:hover,
+.btn-edit:hover {
+  opacity: 0.5;
+}
